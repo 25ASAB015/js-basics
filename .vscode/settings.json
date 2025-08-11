@@ -1,0 +1,20 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true
+    },
+    "html.format.enable": true,
+    "html.format.wrapLineLength": 120,
+    "html.format.unformatted": "",
+    "html.format.contentUnformatted": "pre,code,textarea",
+    "html.format.extraLiners": "head, body, /html",
+    "html.format.indentInnerHtml": false,
+    "html.format.maxPreserveNewLines": 1,
+    "html.format.preserveNewLines": true,
+    "html.format.templating": false,
+    "html.format.unformattedContentDelimiter": ""
+}
