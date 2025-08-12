@@ -90,22 +90,43 @@
 //////////////////////
 
 // Creación de un objeto en JavaScript con propiedades de diferentes tipos
-let person = {
-    name: "Robert",
-    age: 20,
-    isStudent: true
-};
-console.log(person);
+// let person = {
+//     name: "Robert",
+//     age: 20,
+//     isStudent: true
+// };
+// console.log(person);
 
-// Dot Notation - Acceso a propiedades usando punto (.)
-// Es la forma más común y legible de acceder a propiedades
-console.log(person.name);        // Accede a la propiedad 'name'
-console.log(person.age);         // Accede a la propiedad 'age'
-console.log(person.isStudent);   // Accede a la propiedad 'isStudent'
+// // Dot Notation - Acceso a propiedades usando punto (.)
+// // Es la forma más común y legible de acceder a propiedades
+// console.log(person.name);        // Accede a la propiedad 'name'
+// console.log(person.age);         // Accede a la propiedad 'age'
+// console.log(person.isStudent);   // Accede a la propiedad 'isStudent'
 
-// Bracket Notation - Acceso a propiedades usando corchetes ['']
-// Útil cuando el nombre de la propiedad contiene espacios, caracteres especiales
-// o cuando el nombre de la propiedad está en una variable
-console.log(person['name']);     // Accede a la propiedad 'name' usando string
-console.log(person['age']);      // Accede a la propiedad 'age' usando string
-console.log(person['isStudent']); // Accede a la propiedad 'isStudent' usando string
+// // Bracket Notation - Acceso a propiedades usando corchetes ['']
+// // Útil cuando el nombre de la propiedad contiene espacios, caracteres especiales
+// // o cuando el nombre de la propiedad está en una variable
+// console.log(person['name']);     // Accede a la propiedad 'name' usando string
+// console.log(person['age']);      // Accede a la propiedad 'age' usando string
+// console.log(person['isStudent']); // Accede a la propiedad 'isStudent' usando string
+
+//////////////////////
+// Arrays
+//////////////////////
+
+let selectedColors = ['red', 'blue', 'green', '5', 'true', 'false', 'null', 'undefined', 'NaN', 'Infinity', 'Symbol'];
+console.log(selectedColors);
+
+// Acceso a elementos del array
+console.log(selectedColors[0]); // Accede al primer elemento
+console.log(selectedColors[1]); // Accede al segundo elemento
+
+// Acceso a la longitud del array
+console.log(selectedColors.length);
+
+// Acceso a los elementos del array
+console.log(selectedColors[0]);
+console.log(selectedColors[1]);
+console.log(selectedColors[2]);
+console.log(selectedColors[3]);
+console.log(selectedColors[4]);
