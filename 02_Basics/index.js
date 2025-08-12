@@ -1,7 +1,7 @@
 // modulo 3: Operators
 
 //////////////////////
-// 1. Arithmetic Operators
+// 2. Arithmetic Operators
 //////////////////////
 
 let x = 10;
@@ -14,7 +14,7 @@ console.log(x/y); // división 10 / 20 = 0.5
 console.log(x%y); // módulo 10 % 20 = 10
 console.log(x**y); // potencia 10 ** 20 = 100000000000000000000
 
-// incerement and decrement
+// increment and decrement
 let a = 10;
 console.log(a++); // 10
 console.log(a); // 11
@@ -22,3 +22,23 @@ console.log(++a); // 12
 console.log(a--); // 12
 console.log(a); // 11
 console.log(--a); // 10
+
+//////////////////////
+// 3. assignment Operators
+//////////////////////
+
+let d = 10;
+
+x++;
+x = x + 1;
+
+x =
+x = x + 5;
+x +=
+
+
+x *= 2;
+x = x * 2;
+
+x /= 2;
+x = x / 2;
