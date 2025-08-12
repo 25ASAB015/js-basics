@@ -218,3 +218,17 @@ console.log(a > b || a > c); // false || false = false
 
 // NOT (!) - Invierte el valor booleano (true se convierte en false y viceversa)
 console.log(!(a > b)); // !(false) = true
+
+
+//////////////////////
+// logical operators with non boolean values
+//////////////////////
+
+// falsy values: 0, "", null, undefined, NaN
+// truthy values: 1, "a", true, [], {}
+
+let userColor = "red";
+let defaultColor = "blue";
+let currentColor = userColor || defaultColor;
+console.log(currentColor);
+
