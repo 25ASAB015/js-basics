@@ -42,3 +42,36 @@ x = x * 2;
 
 x /= 2;
 x = x / 2;
+
+
+//////////////////////
+// 4. comparison Operators
+//////////////////////
+
+let b = 10;
+let c = 20;
+
+// equality operators (loose equality)
+console.log(b == c); // false
+console.log(b != c); // true
+// strict equality operators (type and value)
+console.log(b === c); // false
+console.log(b !== c); // true
+
+// inequality operators (loose inequality)
+console.log(1 == 1  ); // true
+console.log("1" == 1); // true
+console.log(true == 1); // true
+console.log(false == 0); // true
+console.log(null == undefined); // true
+console.log(null === undefined); // false
+console.log(0 == false); // true
+console.log(0 === false); // false
+
+
+
+// relational operators+
+console.log(b > c); // false
+console.log(b < c); // true
+console.log(b >= c); // false
+console.log(b <= c); // true
