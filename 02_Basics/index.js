@@ -69,9 +69,14 @@ console.log(0 == false); // true
 console.log(0 === false); // false
 
 
-
+console.log("hola mundo"); // false
 // relational operators+
 console.log(b > c); // false
 console.log(b < c); // true
 console.log(b >= c); // false
 console.log(b <= c); // true
+
+
+//////////////////////
+// 6. ternary operator
+//////////////////////

@@ -185,3 +185,18 @@ let greetArrow = (name, lastName) => {
 greetDeclaration("Roberto", "Flores");  // Function Declaration
 greetExpression("Jese", "Daniel");      // Function Expression
 greetArrow("Juan", "Perez");            // Arrow Function
+
+
+//////////////////////
+// ternary operator
+//////////////////////
+
+// Definimos una variable con la hora actual (en formato de 24 horas)
+let hour = 10;
+
+// Usamos el operador ternario para asignar un mensaje basado en la hora
+// Sintaxis: condición ? valor_si_verdadero : valor_si_falso
+let message = hour < 12 ? "Good Morning" : "Good Afternoon";
+
+// Mostramos el mensaje en la consola
+console.log(message);
