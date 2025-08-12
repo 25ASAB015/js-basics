@@ -200,3 +200,21 @@ let message = hour < 12 ? "Good Morning" : "Good Afternoon";
 
 // Mostramos el mensaje en la consola
 console.log(message);
+
+
+//////////////////////
+// logical operators
+//////////////////////
+
+let a = 10;
+let b = 20;
+let c = 30;
+
+// AND (&&) - Retorna true solo si ambas condiciones son verdaderas
+console.log(a > b && a > c); // false && false = false
+
+// OR (||) - Retorna true si al menos una condición es verdadera
+console.log(a > b || a > c); // false || false = false
+
+// NOT (!) - Invierte el valor booleano (true se convierte en false y viceversa)
+console.log(!(a > b)); // !(false) = true
