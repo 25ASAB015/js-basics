@@ -114,19 +114,41 @@
 // Arrays
 //////////////////////
 
-let selectedColors = ['red', 'blue', 'green', '5', 'true', 'false', 'null', 'undefined', 'NaN', 'Infinity', 'Symbol'];
-console.log(selectedColors);
+// let selectedColors = ['red', 'blue', 'green', '5', 'true', 'false', 'null', 'undefined', 'NaN', 'Infinity', 'Symbol'];
+// console.log(selectedColors);
 
-// Acceso a elementos del array
-console.log(selectedColors[0]); // Accede al primer elemento
-console.log(selectedColors[1]); // Accede al segundo elemento
+// // Acceso a elementos del array
+// console.log(selectedColors[0]); // Accede al primer elemento
+// console.log(selectedColors[1]); // Accede al segundo elemento
 
-// Acceso a la longitud del array
-console.log(selectedColors.length);
+// // Acceso a la longitud del array
+// console.log(selectedColors.length);
 
-// Acceso a los elementos del array
-console.log(selectedColors[0]);
-console.log(selectedColors[1]);
-console.log(selectedColors[2]);
-console.log(selectedColors[3]);
-console.log(selectedColors[4]);
+// // Acceso a los elementos del array
+// console.log(selectedColors[0]);
+// console.log(selectedColors[1]);
+// console.log(selectedColors[2]);
+// console.log(selectedColors[3]);
+// console.log(selectedColors[4]);
+
+
+
+//////////////////////
+// Functions
+//////////////////////
+
+// function declaration
+function greet(name, lastName) {
+    console.log("Hello " + name + " " + lastName);
+}
+
+// function call
+greet("Roberto", "Flores");
+greet("Jese", "Daniel");
+
+greet("Roberto"); // second argument is defined but first is not
+greet("Jese"); // second argument is defined but first is not
+
+// Diferencia entre parámetros y argumentos:
+// - Parámetros: son las variables definidas en la declaración de la función (name, lastName)
+// - Argumentos: son los valores reales que se pasan cuando se llama a la función ("Roberto", "Flores")
