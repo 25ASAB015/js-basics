@@ -232,3 +232,17 @@ let defaultColor = "blue";
 let currentColor = userColor || defaultColor;
 console.log(currentColor);
 
+
+
+
+//////////////////////
+// Operator precedence  (order of operations)
+//////////////////////
+let x1 = 2 + 3 * 4; // 2 + 12 = 14
+console.log(x1);
+
+let y1 = (2 + 3) * 4; // 5 * 4 = 20
+console.log(y1);
+
+let z1 = 2 + (3 * 4); // 2 + 12 = 14
+console.log(z1);
