@@ -137,18 +137,43 @@
 // Functions
 //////////////////////
 
-// function declaration
+// // function declaration
+// function greet(name, lastName) {
+//     console.log("Hello " + name + " " + lastName);
+// }
+
+// // function call
+// greet("Roberto", "Flores");
+// greet("Jese", "Daniel");
+
+// greet("Roberto"); // second argument is defined but first is not
+// greet("Jese"); // second argument is defined but first is not
+
+// // Diferencia entre parámetros y argumentos:
+// // - Parámetros: son las variables definidas en la declaración de la función (name, lastName)
+// // - Argumentos: son los valores reales que se pasan cuando se llama a la función ("Roberto", "Flores")
+
+
+//////////////////////
+// Types of Functions
+//////////////////////
+
+// Function Declaration
 function greet(name, lastName) {
     console.log("Hello " + name + " " + lastName);
 }
 
-// function call
+// Function Expression
+let greetExpression = function(name, lastName) {
+    console.log("Hello " + name + " " + lastName);
+}
+
+// Arrow Function
+let greetArrow = (name, lastName) => {
+    console.log("Hello " + name + " " + lastName);
+}
+
+// Function Call
 greet("Roberto", "Flores");
-greet("Jese", "Daniel");
-
-greet("Roberto"); // second argument is defined but first is not
-greet("Jese"); // second argument is defined but first is not
-
-// Diferencia entre parámetros y argumentos:
-// - Parámetros: son las variables definidas en la declaración de la función (name, lastName)
-// - Argumentos: son los valores reales que se pasan cuando se llama a la función ("Roberto", "Flores")
+greetExpression("Jese", "Daniel");
+greetArrow("Juan", "Perez");
